@@ -1,0 +1,88 @@
+﻿@model ThAmCo.Events.Domain.Event
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Event</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EventName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EventName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EventTitle)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EventTitle)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EventDate)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EventDate)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.FoodBookingId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FoodBookingId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.EventTypeId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EventTypeId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ReservationId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReservationId)
+        </dd>
+    </dl>
+</div>
+
+<div>
+    <h4>Guests</h4>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Guest ID</th>
+                <th>Guest Name</th>
+                <!-- Add more columns as needed -->
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model?.GuestBookings != null && Model.GuestBookings.Any())
+            {
+                foreach (var guestBooking in Model.GuestBookings)
+                {
+                    <tr>
+                        <td>@guestBooking.GuestId</td>
+                        <td>@guestBooking.Guest.GuestName</td>
+                        <!-- Add more columns as needed -->
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="2">No guests booked for this event</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.EventId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
