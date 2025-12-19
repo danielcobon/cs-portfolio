@@ -1,0 +1,16 @@
+cis2039\pocketbeasts\BasicGame.class
+cis2039\pocketbeasts\ManaStrategy.class
+cis2039\pocketbeasts\Player.class
+cis2039\pocketbeasts\ClassicGame.class
+cis2039\pocketbeasts\Hand.class
+cis2039\pocketbeasts\Deck.class
+cis2039\pocketbeasts\CardFactory.class
+cis2039\pocketbeasts\GameTemplate.class
+cis2039\pocketbeasts\BeastCard.class
+cis2039\pocketbeasts\HealStrategy.class
+cis2039\pocketbeasts\DeckHandler.class
+cis2039\pocketbeasts\CardHandler.class
+cis2039\pocketbeasts\Graveyard.class
+cis2039\pocketbeasts\Main.class
+cis2039\pocketbeasts\InPlay.class
+cis2039\pocketbeasts\EffectStrategy.class
