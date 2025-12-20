@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "696173374831",
+    "project_id": "my-secret-diary-app-18328",
+    "storage_bucket": "my-secret-diary-app-18328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696173374831:android:0f5c15810bd93a892b0c9a",
+        "android_client_info": {
+          "package_name": "com.example.mysecretdiaryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TLCKsxGvmepDrMoYqlVy9ZBEYPvOAXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696173374831:android:d27b614b20391b512b0c9a",
+        "android_client_info": {
+          "package_name": "com.teamacupcake.secretdiaryapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9TLCKsxGvmepDrMoYqlVy9ZBEYPvOAXw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

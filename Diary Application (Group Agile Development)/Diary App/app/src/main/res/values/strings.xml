@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SecretDiaryApp</string>
+    <string name="email_prompt">Email Address</string>
+    <string name="password_prompt">Password</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="login_button">Log In</string>
+    <string name="change_email_prompt">Enter New E-mail Address</string>
+</resources>
