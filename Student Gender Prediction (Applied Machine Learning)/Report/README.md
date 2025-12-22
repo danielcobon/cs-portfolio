@@ -1,0 +1,2 @@
+Content:
+A report that compares the effectiveness and accuracy of different machine learning models in predicting a student's gender based on their test scores and participation in a test preparation course, as well as how the dataset is prepared before being used for training. Each machine learning model is analysed by a group member, then the models’ prediction accuracy ratings (using training and testing data) are compared, and a conclusion on the preferred machine learning model to use for this prediction task is drawn.

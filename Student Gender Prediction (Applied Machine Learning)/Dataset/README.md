@@ -1,0 +1,2 @@
+Content:
+The dataset "exams.csv" was used for the prediction of a student's gender for this project, according to the various variabeles provided. This dataset can be downloaded from Kaggle (https://www.kaggle.com/datasets/rkiattisak/student-performance-in-mathematics?resource=download).
