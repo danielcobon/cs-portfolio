@@ -1,0 +1,4 @@
+Contents:
+- Architecture Diagram: Shows the web application architecture design, including its users (public, registered and staff) and the interaction between them, the services and databases.
+- Narrative Report: Goes in-depth on the technical decisions made during the project developement, listing each decision taken and analysing the consequences. Also includes a final reflection report on the project.
+- Development Plans: Further details each container (Order Service, Product Service and Product Supplier System) in the web application, their function/responsibility in the system and their endpoints.
