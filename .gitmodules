@@ -1,3 +1,6 @@
 [submodule "Catering Cloud Computing Development/Source/OrdersService"]
 	path = Catering Cloud Computing Development/Source/OrdersService
 	url = https://github.com/danielcobon/OrdersService
+[submodule "Catering Cloud Computing Development/Source/ProductsService"]
+	path = Catering Cloud Computing Development/Source/ProductsService
+	url = https://github.com/danielcobon/ProductsService
