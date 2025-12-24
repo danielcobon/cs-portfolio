@@ -1,0 +1,1 @@
+Due to file size constraints, The file "com.ptc.vuforia.engine-11.1.3.tgz" which should have been in this directory will not be included. Please download it through other sources to ensure the application functions as intended.
