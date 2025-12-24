@@ -1,0 +1,3 @@
+[submodule "Catering Cloud Computing Development/Source/OrdersService"]
+	path = Catering Cloud Computing Development/Source/OrdersService
+	url = https://github.com/danielcobon/OrdersService
